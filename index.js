@@ -20,7 +20,7 @@ const { parseBingoFile } = require('./utils/parse-bingo-files');
 const BingoCard = require('./lib/bingo-card');
 
 // Change FILE_ID to test different files in the ./bingo-files dir
-const FILE_ID = 'test-3.txt';
+const FILE_ID = 'test-1.txt';
 const DIR = './bingo-files';
 
 function solve(fileId, dir) {
