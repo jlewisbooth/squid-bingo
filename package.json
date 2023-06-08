@@ -1,0 +1,21 @@
+{
+  "name": "squid-bingo",
+  "version": "0.0.1",
+  "description": "Coding challenge set by Focusrite. Determine the correct card to always beat a squid at bingo and be on your merry way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ./utils/generate-bingo-files.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlewisbooth/squid-bingo.git"
+  },
+  "author": "Jack Booth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlewisbooth/squid-bingo/issues"
+  },
+  "homepage": "https://github.com/jlewisbooth/squid-bingo#readme"
+}
